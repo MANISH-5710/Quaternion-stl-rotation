@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/Scripts/python.exe -c ' *)",
+      "Bash(echo \"---EXIT:$?---\")",
+      "Bash(./venv/Scripts/python.exe \"Quaternion rotator.py\")",
+      "Bash(./venv/Scripts/python.exe -m py_compile \"Quaternion rotator.py\")",
+      "Bash(./venv/Scripts/python.exe \"Quaternion rotator.py\" --shot _spines.png --shot-size 1100x900)"
+    ]
+  }
+}
